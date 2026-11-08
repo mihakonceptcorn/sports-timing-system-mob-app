@@ -1,0 +1,71 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native builds (Expo Prebuild / Continuous Native Generation)
+/ios
+/android
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDEs and Editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.jks
+*.keystore
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# EAS & Expo credentials
+.eas/
+credentials.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Temporary files & caches
+tmp/
+temp/
+.cache/
+
